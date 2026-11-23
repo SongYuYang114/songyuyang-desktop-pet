@@ -1,0 +1,44 @@
+name: Windows build and verification
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        shell: pwsh
+        run: ./build.ps1
+      - name: Run isolated feature verification
+        shell: pwsh
+        run: |
+          $results = Join-Path $PWD 'test-results'
+          $exe = Join-Path $PWD 'dist\真人桌宠增强版.exe'
+          $process = Start-Process -FilePath $exe -ArgumentList '--self-test', $results -PassThru
+          if (-not $process.WaitForExit(60000)) {
+            $process.Kill()
+            throw 'Verification timed out'
+          }
+          $report = Join-Path $results 'result.txt'
+          if (-not (Test-Path $report)) { throw 'Verification report was not created' }
+          Get-Content $report
+          if (Select-String -Path $report -Pattern '^FAIL:' -Quiet) { throw 'Feature verification failed' }
+      - name: Upload executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: SongYuYang-DesktopPet-windows
+          path: dist/*.exe
+      - name: Upload verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-evidence
+          path: |
+            test-results/result.txt
+            test-results/*preview.png

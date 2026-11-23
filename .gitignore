@@ -1,0 +1,14 @@
+/dist/
+/test-results/
+*.exe
+*.zip
+*.pdb
+*.tmp
+.vs/
+bin/
+obj/
+settings.xml
+settings.xml.*
+media/
+.env
+.env.*

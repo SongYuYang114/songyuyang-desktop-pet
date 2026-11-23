@@ -1,0 +1,82 @@
+真人桌宠增强版素材生成记录
+生成方式：内置 image_gen，透明背景请求。
+素材用途：44 个写实动作照片，嵌入 Windows 桌宠。
+
+===== coat.png =====
+Use case: identity-preserve. Asset type: transparent photographic sprite atlas for a Windows desktop companion.
+Reference: exact central person in the provided photograph; only use person identity, black rectangular glasses, tied back dark hair with loose strands, natural face and adult body proportions. Match the face closely without beautification. Remove all background signage and cartoons.
+Primary request: a clean, photorealistic atlas of the SAME real person, NOT illustration, NOT anime, NOT chibi or 3D. Exactly NINE entirely separate full-body cutouts in a strict equal-sized 3-column by 3-row grid. Each cell has generous transparent padding, same camera and scale, head and shoes fully visible. Center each figure inside its own cell. Feet baseline consistent for standing poses. Genuine transparent alpha background, no checkerboard, no text, no cell borders, no floor or scenery. Soft even neutral light, realistic fabric and face, natural hands.
+Poses in row-major reading order:
+1. neutral standing facing camera, relaxed smile, eyes open, arms down.
+2. gentle walking step with one foot forward.
+3. opposite walking step with other foot forward.
+4. standing waving one hand in greeting.
+5. standing adjusting glasses with fingertips.
+6. stretching both arms gently up, keep hands within cell.
+7. seated on an invisible ledge, facing camera, thighs horizontal and knees bent with feet dangling; NO chair or ledge rendered, only person.
+8. standing drinking from a small water cup.
+9. standing holding and eating a small cookie.
+All poses must clearly retain the same identity, glasses, hair and wardrobe. Dark simple shoes.
+Wardrobe: charcoal long overcoat, cream knit sweater, black pants and dark crossbody bag exactly as in the reference photograph.
+
+===== home.png =====
+Use case: identity-preserve. Asset type: transparent photographic sprite atlas for a Windows desktop companion.
+Reference: exact central person in the provided photograph; only use person identity, black rectangular glasses, tied back dark hair with loose strands, natural face and adult body proportions. Match the face closely without beautification. Remove all background signage and cartoons.
+Primary request: a clean, photorealistic atlas of the SAME real person, NOT illustration, NOT anime, NOT chibi or 3D. Exactly NINE entirely separate full-body cutouts in a strict equal-sized 3-column by 3-row grid. Each cell has generous transparent padding, same camera and scale, head and shoes fully visible. Center each figure inside its own cell. Feet baseline consistent for standing poses. Genuine transparent alpha background, no checkerboard, no text, no cell borders, no floor or scenery. Soft even neutral light, realistic fabric and face, natural hands.
+Poses in row-major reading order:
+1. neutral standing facing camera, relaxed smile, eyes open, arms down.
+2. gentle walking step with one foot forward.
+3. opposite walking step with other foot forward.
+4. standing waving one hand in greeting.
+5. standing adjusting glasses with fingertips.
+6. stretching both arms gently up, keep hands within cell.
+7. seated on an invisible ledge, facing camera, thighs horizontal and knees bent with feet dangling; NO chair or ledge rendered, only person.
+8. standing drinking from a small water cup.
+9. standing holding and eating a small cookie.
+All poses must clearly retain the same identity, glasses, hair and wardrobe. Dark simple shoes.
+Wardrobe: comfortable cream zip hoodie over white T-shirt, charcoal relaxed pants, simple gray slippers. No coat or crossbody bag. Natural casual home clothing.
+
+===== scarf.png =====
+Use case: identity-preserve. Asset type: transparent photographic sprite atlas for a Windows desktop companion.
+Reference: exact central person in the provided photograph; only use person identity, black rectangular glasses, tied back dark hair with loose strands, natural face and adult body proportions. Match the face closely without beautification. Remove all background signage and cartoons.
+Primary request: a clean, photorealistic atlas of the SAME real person, NOT illustration, NOT anime, NOT chibi or 3D. Exactly NINE entirely separate full-body cutouts in a strict equal-sized 3-column by 3-row grid. Each cell has generous transparent padding, same camera and scale, head and shoes fully visible. Center each figure inside its own cell. Feet baseline consistent for standing poses. Genuine transparent alpha background, no checkerboard, no text, no cell borders, no floor or scenery. Soft even neutral light, realistic fabric and face, natural hands.
+Poses in row-major reading order:
+1. neutral standing facing camera, relaxed smile, eyes open, arms down.
+2. gentle walking step with one foot forward.
+3. opposite walking step with other foot forward.
+4. standing waving one hand in greeting.
+5. standing adjusting glasses with fingertips.
+6. stretching both arms gently up, keep hands within cell.
+7. seated on an invisible ledge, facing camera, thighs horizontal and knees bent with feet dangling; NO chair or ledge rendered, only person.
+8. standing drinking from a small water cup.
+9. standing holding and eating a small cookie.
+All poses must clearly retain the same identity, glasses, hair and wardrobe. Dark simple shoes.
+Wardrobe: charcoal overcoat, cream sweater and black pants as reference, with an oatmeal knit scarf and matching knit beanie. Keep rectangular glasses and visible dark hair. No crossbody strap.
+
+===== festival.png =====
+Use case: identity-preserve. Asset type: transparent photographic sprite atlas for a Windows desktop companion.
+Reference: exact central person in the provided photograph; only use person identity, black rectangular glasses, tied back dark hair with loose strands, natural face and adult body proportions. Match the face closely without beautification. Remove all background signage and cartoons.
+Primary request: a clean, photorealistic atlas of the SAME real person, NOT illustration, NOT anime, NOT chibi or 3D. Exactly NINE entirely separate full-body cutouts in a strict equal-sized 3-column by 3-row grid. Each cell has generous transparent padding, same camera and scale, head and shoes fully visible. Center each figure inside its own cell. Feet baseline consistent for standing poses. Genuine transparent alpha background, no checkerboard, no text, no cell borders, no floor or scenery. Soft even neutral light, realistic fabric and face, natural hands.
+Poses in row-major reading order:
+1. neutral standing facing camera, relaxed smile, eyes open, arms down.
+2. gentle walking step with one foot forward.
+3. opposite walking step with other foot forward.
+4. standing waving one hand in greeting.
+5. standing adjusting glasses with fingertips.
+6. stretching both arms gently up, keep hands within cell.
+7. seated on an invisible ledge, facing camera, thighs horizontal and knees bent with feet dangling; NO chair or ledge rendered, only person.
+8. standing drinking from a small water cup.
+9. standing holding and eating a small cookie.
+All poses must clearly retain the same identity, glasses, hair and wardrobe. Dark simple shoes.
+Wardrobe: tasteful festive burgundy cardigan with a subtle gold trim over a cream sweater, charcoal pants and simple dark shoes. No hats, no crossbody bag. Keep same face, hair and rectangular glasses.
+
+===== extra.png =====
+Use case: precise-object-edit. Edit the 2x2 transparent photographic sprite atlas in reference image 1. Remove ONLY the handheld phone and beige shopping tote bag from all four poses, leaving both hands empty and relaxed where appropriate. Reference image 2 shows the required same charcoal coat, cream sweater, crossbody strap and outfit. Keep the exact same person identity, closed-eye blink in top-left, smiling head-tilt in top-right, shy hand-on-cheek in bottom-left, and leaning peek in bottom-right. Keep exact four full-body figures, same placement, scale, clothing and 2x2 equal-cell layout, transparent RGBA background. No new props. Do not alter anything else.
+
+===== rest.png =====
+Use case: identity-preserve. Using the person in the reference atlas as identity and wardrobe reference, create FOUR realistic photographic cutouts on a genuinely transparent background in a strict equal 2-column 2-row grid. Same face with black rectangular glasses, same dark tied-back hair, charcoal overcoat, cream sweater, black pants and dark shoes. Preserve adult proportions, NO chibi or illustration. Remove all hand props and bags except the worn crossbody strap.
+Top-left: full-body standing, one hand over mouth in a natural sleepy yawn.
+Top-right: lying comfortably on stomach, supported on elbows, looking forward, full body including bent legs and shoes visible; horizontal body, no floor or furniture.
+Bottom-left: sitting relaxed on an invisible ledge, eyes closed peacefully, legs dangling, no chair.
+Bottom-right: leaning forward with chin supported in one hand, elbows resting on an invisible ledge, full body visible, friendly inquisitive expression.
+Each pose entirely inside its own equal cell with generous transparent margins. No backgrounds, floor, furniture, labels, borders, checkerboard or extra figures. Clean photographic alpha cutouts.

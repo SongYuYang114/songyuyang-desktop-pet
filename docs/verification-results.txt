@@ -1,0 +1,36 @@
+﻿PASS · transparent visible main window
+PASS · native pet window is visible
+PASS · coat nine action frames
+PASS · home nine action frames
+PASS · scarf nine action frames
+PASS · festival nine action frames
+PASS · blink and reaction frames
+PASS · yawn and lying down frames
+PASS · head pat adds affection
+PASS · head pat cooldown prevents score spam
+PASS · feeding changes pose and saved stats
+PASS · affection unlock action
+PASS · second pet created
+PASS · two pets exchange snack
+PASS · outfit switches complete pose set
+PASS · focus pause freezes remaining time
+PASS · focus resume preserves remaining time
+PASS · focus completion enters break
+PASS · focus completion not duplicated
+PASS · break completion returns idle
+PASS · water reminder becomes pending once
+PASS · water acknowledgement resets deadline
+PASS · water snooze
+PASS · settings and affection round trip
+PASS · bad imported image leaves active profile unchanged
+PASS · profile switching rebuilds voice and outfit controls
+PASS · valid single transparent avatar imports and is copied locally
+PASS · starting focus seats both pets
+PASS · host pauses focus
+PASS · host stops focus
+PASS · lying pose expands drawing area
+PASS · pet attaches to actual native window edge
+PASS · attached pet follows moving native window
+PASS · closed target window releases attachment
+PASS · second pet closes independently
+PASS · transparent padding is click through
